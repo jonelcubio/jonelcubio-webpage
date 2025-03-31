@@ -21,6 +21,12 @@ body {
   border-radius: 15px;
   font-family: DM Serif Display, serif;
   font-size: 16px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.header-cv:hover {
+  background-color: white;
+  color: black;
 }
 
 .header-inside {
@@ -52,10 +58,56 @@ header {
 .header-hamburger div {
   font-size: 20px;
   cursor: pointer;
+  transition: text-decoration 0.5s;
+}
+
+.header-hamburger div:hover {
+  text-decoration: underline;
 }
 
 .header-space {
   width: 500px;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+.main-inner {
+  margin-top: 10%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.main-inner h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.main-catchphrase {
+  font-weight: 500;
+  word-wrap: break-word;
+  margin-bottom: 20px;
+}
+
+.main-links {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.links {
+  width: auto;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  font-family: DM Serif Display, serif;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.8s, color 0.5s;
+}
+
+.links:hover {
+  background-color: white;
+  color: black;
 }

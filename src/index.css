@@ -118,9 +118,10 @@ header {
 }
 
 .projects-section {
-  margin-top: 300px;
+  margin-top: 350px;
   padding-left: 4%;
   padding-right: 4%;
+
 }
 
 .projects-intro {
@@ -188,4 +189,12 @@ header {
   gap: 20px;
   font-family: Inter,sans-serif;
   font-size: 15px;
+}
+
+.projects-image {
+  transition: transform 0.8s;
+}
+
+.projects-image:hover {
+  transform: scale(1.1);
 }

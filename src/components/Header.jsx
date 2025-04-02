@@ -11,9 +11,13 @@ export function Header() {
 
         <div className="header-hamburger">
           <img src={hamburger} alt="hamburger-menu" className="hamburger-menu" />
-          <div className="header-about">About</div>
-          <div className="header projects">Projects</div>
-          <div className="header-contact">Contact</div>
+
+          <a href=""><div className="header-about">About</div></a>
+
+          <a href="#projects"><div className="header projects">Projects</div></a>
+
+          <a href=""><div className="header-contact">Contact</div></a>
+
           <button className="header-cv">Curriculum</button>
         </div>
       </div>

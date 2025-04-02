@@ -116,3 +116,76 @@ header {
   background-color: white;
   color: black;
 }
+
+.projects-section {
+  margin-top: 300px;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.projects-intro {
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+
+.prj-image {
+  width: 300px;
+  height: 300px;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  object-fit: contain;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.project-right-side {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.project-personal {
+  font-size: 18px;
+  padding-bottom: 20px;
+  font-weight: 300;
+  font-family: Inter, sans-serif;
+}
+
+.project-title {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.project-text {
+  font-family: Inter,san-serif;
+  font-weight: 300;
+  padding-bottom: 50px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.project-skills {
+  font-family: Inter,san-serif;
+  font-weight: 200;
+  padding-bottom: 30px;
+}
+
+.projects-links {
+  display: flex;
+  gap: 20px;
+  font-family: Inter,sans-serif;
+  font-size: 15px;
+}

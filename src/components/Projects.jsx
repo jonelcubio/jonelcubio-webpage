@@ -1,31 +1,11 @@
 import projectsData from "../data/projectsData";
 import { useEffect, useState, useRef } from "react";
-
+import 'animate.css';
 
 export function Projects() {
 
-    const [isVisible, setIsVisible] = useState(false);
-    const ref = useRef();
-
-    useEffect(() => {
-      const observer = new IntersectionObserver(
-        ([entry]) => {
-          if (entry.isIntersecting) {
-            setIsVisible(true);
-            observer.disconnect();
-            console.log('Observe')
-          }
-        },
-        { threshold: 0.1}
-      );
-
-      if (ref.current) observer.observe(ref.current);
-      return () => observer.disconnect();
-    }, []);
-
     return (
-      <section className="projects-section" id="projects" ref={ref} style={{minHeight: "300px"}}>
-        {isVisible && (  // Wrap everything inside a single parent
+      <section className="projects-section" id="projects">
           <>
             <div className="projects-intro">Checkout my Projects 👩🏻‍💻</div>
     
@@ -60,7 +40,11 @@ export function Projects() {
               ))}
             </div>
           </>
-        )}
+
+        <div className="project-buttons">
+          <a href="https://github.com/mynameisjonelledev" target="_blank" rel="noopener noreferrer"><button className="projects-repos-buttons animate__animated animate__bounce">More on GitHub </button></a>
+          <a href="https://bitbucket.org/mynameisjonelledev/workspace/repositories/" target="_blank" rel="noopener noreferrer"><button className="projects-repos-buttons animate__animated animate__bounce">More on Bitbucket</button></a>
+        </div>
       </section>
     )
   }

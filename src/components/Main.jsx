@@ -1,5 +1,7 @@
 import catchphrase from "../catchphrase/catchphrase-main.js";
 import {useState, useEffect} from "react";
+import 'animate.css';
+
 
 export function Main() {
 
@@ -15,7 +17,7 @@ export function Main() {
   return(
     <main>
       <div className="main-inner">
-        <h1 className="main-hello">Hello 👋</h1>
+        <h1 className="main-hello">Hello <span className="animate__animated animate__headShake">👋</span></h1>
         <h1 className="main-name">I am Jonel Cubio</h1>
         <h2 className="main-catchphrase">{randomPhrase}</h2>
         

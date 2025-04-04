@@ -129,7 +129,7 @@ header {
   margin-bottom: 250px;
 }
 
-.skills-container {
+.skills-container, .question-container {
   padding-left: 4%;
   padding-right: 4%;
   margin-bottom: 250px;

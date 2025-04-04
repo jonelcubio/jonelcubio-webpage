@@ -241,7 +241,7 @@ header {
   height: 30px;
 }
 
-.skills-title {
+.skills-title, .about-title {
  font-size: 28px;
  margin-bottom: 30px;
 }
@@ -275,3 +275,56 @@ header {
 .skills-li-li {
   transition: ease-in-out background-color 0.8s, color 0.8s;
 }
+
+.about-image-img {
+  width: 300px;
+}
+
+.about-container {
+  padding-left: 4%;
+  padding-right: 4%;
+  gap: 30px;
+  margin-bottom: 250px;
+}
+
+.about-text-image-con {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ flex-direction: column;
+}
+
+.about-image {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-txt, .about-txt-con {
+  word-wrap: break-word;
+  margin-left: 5%;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  font-family: Inter,san-serif;
+  padding-bottom: 20px;
+}
+
+.txt-color {
+  position: absolute;
+  background-color: rebeccapurple;
+  padding: auto;
+  width: auto;
+  transition: ease-in-out background-color 0.8s, color 0.9s;
+}
+
+.fr {
+  background-color:rebeccapurple;
+  padding: 2px;
+  transition: ease-in-out background-color 0.8s, color 0.9s;
+}
+
+.fr:hover, .txt-color:hover {
+  background-color: white;
+  color: rebeccapurple;
+}
+

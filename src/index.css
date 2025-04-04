@@ -265,3 +265,13 @@ header {
 .skills-li-li-ico {
   vertical-align: middle;
 }
+
+.skills-li-li:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.skills-li-li {
+  transition: ease-in-out background-color 0.8s, color 0.8s;
+}

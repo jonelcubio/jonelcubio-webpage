@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://webpage-bfnw.onrender.com/sitemap.xml

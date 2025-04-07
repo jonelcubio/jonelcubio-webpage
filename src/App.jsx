@@ -7,6 +7,7 @@ import { Questions } from "./components/Questions"
 import { Footer } from "./components/Footer"
 
 export function App() {
+
   return (
     <>
     <Header />

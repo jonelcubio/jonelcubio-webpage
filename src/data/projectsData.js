@@ -9,6 +9,7 @@ const projectsData = [{
   repo: 'https://github.com/mynameisjonelledev/chef-claude',
   repologo: {github},
   webpage: 'https://chef-claude-jonelle.vercel.app/',
+  data: 'fade-right',
 },{
   id: 2,
   name: 'Hotel Booking Webpage',
@@ -18,6 +19,7 @@ const projectsData = [{
   repo: 'https://github.com/mynameisjonelledev/sapphire-shores',
   repologo: {github},
   webpage: 'https://sapphire-shores.vercel.app/', 
+  data: 'fade-left',
 }, {
   id: 3,
   name: 'Vibe Matcher Web App',
@@ -27,6 +29,7 @@ const projectsData = [{
   repo: 'https://github.com/mynameisjonelledev/vibe-matcher',
   repologo: {github},
   webpage: 'https://vibe-matcher.vercel.app/',
+  data: 'fade-right',
 }];
 
 export default projectsData;

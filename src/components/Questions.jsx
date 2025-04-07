@@ -1,6 +1,18 @@
+import React, {useEffect} from "react"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 export function Questions() {
+
+  useEffect(()=> {
+        AOS.init({
+          duration:800,
+          once:false,
+        });
+      }, []);
+
   return(
-    <section className="question-container">
+    <section className="question-container" id="question" data-aos="flip-left">
       <div className="question-title">Question 🙋🏻</div>
 
       <div className="question-questions">Got any question? Don't hesistate to contact me!</div>

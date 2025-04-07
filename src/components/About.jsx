@@ -1,8 +1,19 @@
 import about from "../assets/about-image.jpg";
+import React, {useEffect} from "react"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export function About() {
+
+  useEffect(()=> {
+        AOS.init({
+          duration:800,
+          once:false,
+        });
+      }, []);
+
   return(
-    <section className="about-container">
+    <section className="about-container" id="about" data-aos="fade-up">
       <div className="about-title">Who is Jonel?🤔</div>
 
       <div className="about-text-image-con">
@@ -17,7 +28,6 @@ export function About() {
 
           <div className="about-txt">My journey into web development started with a curiosity for how websites work, and now, I'm dedicated to mastering React.js, JavaScript, and modern web technologies to create seamless digital experiences. </div>
 
-          <div className="about-txt">Ps. I kinda copied the design of <a href="https://www.emanueledelmonte.it/" target="_blank" no rel="noopener noreferrer"><span className="fr">emanueledelmonte.it</span></a> , because his portfolio is awesome! </div>
           </div>
          
         </div>

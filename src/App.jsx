@@ -4,6 +4,7 @@ import { Projects } from "./components/Projects"
 import { Skills } from "./components/Skills"
 import { About } from "./components/About"
 import { Questions } from "./components/Questions"
+import { Footer } from "./components/Footer"
 
 export function App() {
   return (
@@ -14,6 +15,7 @@ export function App() {
     <Skills />
     <About />
     <Questions />
+    <Footer />
     </>
   )
 }

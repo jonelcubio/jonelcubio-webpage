@@ -174,7 +174,7 @@ header {
   font-family: Inter, sans-serif;
 }
 
-.project-title {
+.project-title, .question-title {
   font-size: 25px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -326,5 +326,47 @@ header {
 .fr:hover, .txt-color:hover {
   background-color: white;
   color: rebeccapurple;
+}
+
+.question-questions {
+  font-family: Inter, san-serif;
+  word-wrap: break-word;
+}
+
+.question-pic-con {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.question-pic-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 100px;
+  border: 2px solid white;
+}
+
+.question-name-email {
+  align-items: center;
+  align-self: center;
+  margin: 50px;
+  font-size: 25px;
+}
+
+.question-pic-name {
+  display: flex;
+  flex-direction: row;
+}
+
+.question-email {
+  font-size: 17px;
+  padding-top: 10px;
+}
+
+.question-email:hover {
+  text-decoration: underline;
 }
 

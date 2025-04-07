@@ -14,7 +14,7 @@ export function Header() {
 
           <a href="#about"><div className="header-about">About</div></a>
 
-          <a href="#projects"><div className="header projects">Projects</div></a>
+          <a href="#projects"><div className="header-projects">Projects</div></a>
 
           <a href="#question"><div className="header-contact">Contact</div></a>
 

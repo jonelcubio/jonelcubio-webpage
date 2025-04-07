@@ -102,6 +102,8 @@ header {
   display: flex;
   flex-direction: row;
   gap: 30px;
+
+  flex-wrap: wrap;
 }
 
 .links {

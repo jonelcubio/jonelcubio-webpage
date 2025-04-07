@@ -134,7 +134,7 @@ header {
 .skills-container, .question-container {
   padding-left: 4%;
   padding-right: 4%;
-  margin-bottom: 250px;
+  margin-bottom: 100px;
   flex-wrap: wrap;
 }
 
@@ -373,7 +373,7 @@ header {
 }
 
 .footer-section {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .footer-hori-line {

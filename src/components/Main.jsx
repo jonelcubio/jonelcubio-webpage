@@ -24,9 +24,9 @@ export function Main() {
         <div className="main-links">
           <a href="https://www.linkedin.com/in/jonel-cubio-bb173412a/" target="_blank"><button className="main-linkedin links">LinkedIn</button></a>
 
-          <a href="https://github.com/mynameisjonelledev" target="_blank"><button className="main-github links">GitHub</button></a>
+          <a href="https://github.com/jonelcubio" target="_blank"><button className="main-github links">GitHub</button></a>
 
-          <a href="https://bitbucket.org/mynameisjonelledev/workspace/repositories/" target="_blank"><button className="main-bitbucket links">Bitbucket</button></a>
+          <a href="https://bitbucket.org/mynameisjonelledev/" target="_blank"><button className="main-bitbucket links">Bitbucket</button></a>
 
            <a href="mailto:jonelcubio021@gmail.com" target="_blank"><button className="main-mail links">Mail</button></a>
         </div>

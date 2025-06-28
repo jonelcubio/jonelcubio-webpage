@@ -19,7 +19,7 @@ export function Questions() {
 
       <div className="question-pic-name">
         <div className="question-pic-con">
-          <img src="https://i.postimg.cc/pLPd88nc/IMG20250406090439.jpg" className="question-pic-img" />
+          <img src="https://i.ibb.co/Z6KZbtrg/Untitled-design-1.png" className="question-pic-img" />
         </div>
 
         <div className="question-name-email">

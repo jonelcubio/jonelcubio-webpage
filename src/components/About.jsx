@@ -19,7 +19,7 @@ export function About() {
       <div className="about-text-image-con">
         
         <div className="about-image">
-          <img src={about} alt="about-image" className="about-image-img" />
+          <img src="https://i.ibb.co/tThwrMNf/461499477-10225959455237773-3511652537813814666-n.jpg" alt="about-image" className="about-image-img" />
 
           <div className="about-txt-con">
           <div className="about-txt">Hi, I'm Jonel! , but I prefer the spelling of <span className="txt-color">Jonelle.</span>'</div>

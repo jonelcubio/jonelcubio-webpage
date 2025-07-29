@@ -5,18 +5,21 @@ import { Skills } from "./components/Skills"
 import { About } from "./components/About"
 import { Questions } from "./components/Questions"
 import { Footer } from "./components/Footer"
+import TargetCursor from "./react-bits/TargetCursor"
 
 export function App() {
 
   return (
     <>
-    <Header />
-    <Main />
-    <Projects />
-    <Skills />
-    <About />
-    <Questions />
-    <Footer />
+    <TargetCursor />
+      <Header />
+      <Main />
+      <Projects />
+      <Skills />
+      <About />
+      <Questions />
+      <Footer />
+    
     </>
   )
 }

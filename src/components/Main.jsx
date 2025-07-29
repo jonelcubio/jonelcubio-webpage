@@ -20,7 +20,6 @@ export function Main() {
         <h1 className="main-hello">Hello <span className="animate__animated animate__headShake">👋</span></h1>
 
         <TrueFocus />
-        <h1 className="main-name">I am Jonel Cubio</h1>
 
         <h2 className="main-catchphrase">{randomPhrase}</h2>
         

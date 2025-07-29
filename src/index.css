@@ -93,6 +93,7 @@ header {
   font-weight: 500;
   word-wrap: break-word;
   margin-bottom: 20px;
+  @apply pt-2.5;
 }
 
 .main-links {

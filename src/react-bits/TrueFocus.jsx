@@ -1,10 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 
-console.log("TrueFocus component loaded");
 
 const TrueFocus = ({
-  sentence = "Jonel Cubio",
+  sentence = "I am Jonel Cubio",
   manualMode = false,
   blurAmount = 5,
   borderColor = "green",
@@ -59,7 +58,7 @@ const TrueFocus = ({
 
   return (
     <div
-      className="relative flex gap-4 justify-center items-center flex-wrap"
+      className="relative flex gap-4 flex-wrap"
       ref={containerRef}
     >
       {words.map((word, index) => {

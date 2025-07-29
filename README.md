@@ -24,6 +24,7 @@ This is a personal portfolio website for Jonel Cubio, showcasing frontend develo
 
 - React.js
 - Vite
-- CSS (custom + media queries)
+- CSS & Tailwind CSS (custom + media queries)
 - Animate.css, AOS
 - Deployed on Vercel
+- ReactBits.dev (custom cursor and other amazing animation.)

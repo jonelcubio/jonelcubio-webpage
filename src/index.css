@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 * {
   margin: 0;
   padding: 0;
@@ -31,13 +33,10 @@ body {
   border-radius: 15px;
   font-family: DM Serif Display, serif;
   font-size: 16px;
-  transition: background-color 0.5s, color 0.5s;
+  @apply hover:bg-violet-400 hover:text-white transition-colors duration-500 hover:border-violet-400;
 }
 
-.header-cv:hover {
-  background-color: white;
-  color: black;
-}
+
 
 .header-inside {
   display: flex;
@@ -68,12 +67,10 @@ header {
 .header-hamburger div {
   font-size: 20px;
   cursor: pointer;
-  transition: text-decoration 0.5s;
+  @apply hover:text-violet-400 transition-colors duration-500 hover:underline;
 }
 
-.header-hamburger div:hover {
-  text-decoration: underline;
-}
+
 
 .header-space {
   width: 500px;
@@ -116,13 +113,9 @@ header {
   border-radius: 10px;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.8s, color 0.5s;
+  @apply hover:bg-violet-400 hover:text-white transition-colors duration-500 hover:border-violet-400;
 }
 
-.links:hover {
-  background-color: white;
-  color: black;
-}
 
 .projects-section {
   margin-top: 250px;
@@ -182,6 +175,10 @@ header {
   padding-bottom: 20px;
 }
 
+.project-title {
+  @apply text-violet-400 cursor-default;
+}
+
 .project-text {
   font-family: Inter,san-serif;
   font-weight: 300;
@@ -229,14 +226,11 @@ header {
   border-radius: 10px;
   font-family: Inter,san-serif;
   cursor: pointer;
-  transition: background-color 0.8s;
+  @apply text-sm;
+  @apply hover:bg-violet-400 hover:text-white transition-colors duration-500 hover:border-violet-400 hover:transition-all;
 }
 
-.projects-repos-buttons:hover {
-  background-color: black;
-  color: white;
-  border: 1px solid white;
-}
+
 
 .skills-li-li-ico {
   width: 30px;

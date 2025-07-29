@@ -54,6 +54,7 @@ export function Projects() {
 
         <div className="project-buttons" data-aos="fade-down-left">
           <a href="https://github.com/mynameisjonelledev" target="_blank" rel="noopener noreferrer"><button className="projects-repos-buttons animate__animated animate__bounce">More on GitHub </button></a>
+          
           <a href="https://bitbucket.org/mynameisjonelledev/workspace/repositories/" target="_blank" rel="noopener noreferrer"><button className="projects-repos-buttons animate__animated animate__bounce">More on Bitbucket</button></a>
         </div>
       </section>

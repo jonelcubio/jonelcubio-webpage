@@ -5,13 +5,14 @@ import { Skills } from "./components/Skills"
 import { About } from "./components/About"
 import { Questions } from "./components/Questions"
 import { Footer } from "./components/Footer"
-import TargetCursor from "./react-bits/TargetCursor"
+import SplashCursor from "./react-bits/SplashCursor"
+
 
 export function App() {
 
   return (
     <>
-    <TargetCursor />
+      <SplashCursor />
       <Header />
       <Main />
       <Projects />

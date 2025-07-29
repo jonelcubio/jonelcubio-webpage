@@ -3,6 +3,7 @@ import React, {useEffect} from "react"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
 export function About() {
 
   useEffect(()=> {
@@ -31,6 +32,7 @@ export function About() {
           </div>
          
         </div>
+
 
         
       </div>

@@ -1,7 +1,7 @@
 import catchphrase from "../catchphrase/catchphrase-main.js";
 import {useState, useEffect} from "react";
 import 'animate.css';
-
+import TrueFocus from "../react-bits/TrueFocus.jsx";
 
 export function Main() {
 
@@ -18,7 +18,10 @@ export function Main() {
     <main>
       <div className="main-inner">
         <h1 className="main-hello">Hello <span className="animate__animated animate__headShake">👋</span></h1>
+
+        <TrueFocus />
         <h1 className="main-name">I am Jonel Cubio</h1>
+
         <h2 className="main-catchphrase">{randomPhrase}</h2>
         
         <div className="main-links">

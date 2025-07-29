@@ -1,7 +1,7 @@
 {
   "name": "jonelle-webpage",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,6 +12,7 @@
   "dependencies": {
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
+    "framer-motion": "^12.23.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
